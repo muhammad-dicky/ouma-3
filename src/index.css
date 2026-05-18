@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Geist", ui-sans-serif, system-ui, sans-serif;
+
+  --color-ouma-dark: #0D2888;
+  --color-ouma-light: #EDE8E2;
+}
+
+@layer base {
+  body, * {
+    @media (pointer: fine) {
+      cursor: none !important;
+    }
+  }
+  
+  body {
+    @apply bg-ouma-light text-ouma-dark font-sans lowercase selection:bg-ouma-dark selection:text-ouma-light;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .text-reveal-mask {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  
+  .heading-giant {
+    @apply font-sans font-bold text-5xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl 2xl:text-9xl leading-[0.85] tracking-[-0.02em];
+  }
+
+  .heading-big {
+    @apply font-sans font-bold text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl 2xl:text-8xl leading-[0.85] tracking-[-0.02em];
+  }
+
+  .image-offset-dark {
+    position: relative;
+  }
+
+  .image-offset-dark::before {
+    content: '';
+    @apply absolute inset-0 bg-ouma-dark translate-x-4 translate-y-4 -z-10;
+  }
+}
+
+.lenis.lenis-smooth {
+  height: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Custom Cursor or other agency-like styles can go here */
+
