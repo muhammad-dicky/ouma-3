@@ -4,27 +4,27 @@ import gsap from "gsap";
 const servicesList = [
   {
     title: "branding",
-    img: "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&q=80&w=800",
+    img: "/capabilities/branding.jpg",
   },
   {
     title: "social media",
-    img: "https://images.unsplash.com/photo-1778880984300-d709bb02f6ea?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "/capabilities/social-media.jpg",
   },
   {
     title: "advertising",
-    img: "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80&w=800",
+    img: "/capabilities/advertising.jpg",
   },
   {
     title: "search engine optimization",
-    img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+    img: "/capabilities/seo.jpg",
   },
   {
     title: "web analytics",
-    img: "https://images.unsplash.com/photo-1614741118887-7a4ee193a5fa?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    img: "/capabilities/web-analytics.jpg",
   },
   {
     title: "customer relationship management",
-    img: "https://images.unsplash.com/photo-1556740738-b6a63e27c4df?auto=format&fit=crop&q=80&w=800",
+    img: "/capabilities/crm.jpg",
   },
 ];
 
