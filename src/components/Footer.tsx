@@ -33,7 +33,9 @@ export const Footer: React.FC = () => {
                 linkedin
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/oumacreatives?igsh=czV4d2plbHJrbm1h&igsi=czV4d2plbHJrbm1h"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-sm hover:opacity-60 transition-opacity lowercase"
               >
                 instagram

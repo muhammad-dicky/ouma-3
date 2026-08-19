@@ -96,7 +96,14 @@ export const Navbar: React.FC = () => {
               transition={{ delay: 0.8 }}
               className="absolute bottom-12 left-6 md:left-16 flex gap-8 text-ouma-light text-xs uppercase tracking-widest font-mono"
             >
-              <span>instagram</span>
+              <a
+                href="https://www.instagram.com/oumacreatives?igsh=czV4d2plbHJrbm1h&igsi=czV4d2plbHJrbm1h"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-100 transition-opacity"
+              >
+                instagram
+              </a>
               <span>twitter</span>
               <span>linkedin</span>
             </motion.div>
