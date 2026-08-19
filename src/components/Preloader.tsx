@@ -64,10 +64,14 @@ export const Preloader: React.FC = () => {
         </span>
         
         {/* Solid Fill Layer (Animated Foreground) */}
-        <span 
-          ref={solidTextRef} 
+        <span
+          ref={solidTextRef}
           className="absolute left-0 top-0 text-[#EDE8E2]"
-          style={{ clipPath: 'inset(100% 0 0 0)' }}
+          style={{
+            clipPath: 'inset(100% 0 0 0)',
+            WebkitTextStroke: '3px #EDE8E2',
+            textShadow: '0 0 2px #EDE8E2, 0 0 2px #EDE8E2',
+          }}
         >
           ouma
         </span>

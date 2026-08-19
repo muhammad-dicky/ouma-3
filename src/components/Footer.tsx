@@ -16,10 +16,10 @@ export const Footer: React.FC = () => {
           <div className="md:col-span-4 flex flex-col gap-3 md:gap-4">
             <span className="text-xs opacity-40">say hello</span>
             <a
-              href="mailto:hello@ouma.digital"
+              href="mailto:info@oumacreatives.com"
               className="text-lg md:text-xl hover:opacity-60 transition-opacity"
             >
-              hello@ouma.digital
+              info@oumacreatives.com
             </a>
           </div>
 
